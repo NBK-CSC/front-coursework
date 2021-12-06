@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: row ;
+    }  
+    .round {
+        max-width: 30%;
+    }
+    .icons {
+        max-width:90%;
+        min-width: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .info {
+        flex-direction: column;
+    }  
+    .round {
+        max-width: 90%;
+    }
+    .icons {
+        max-width: 40%;
+    }
+}
