@@ -11,7 +11,6 @@ function first() {
         let elements=document.querySelectorAll('img');
         for (let i = 0; i < elements.length; i++) {
             if(elements[i].id!="glasses"){
-                elements[i].style.filter = "";
                 elements[i].style.filter = "sepia(60%)";
             }
         }
@@ -22,7 +21,6 @@ function second() {
         let elements=document.querySelectorAll('img');
         for (let i = 0; i < elements.length; i++) {
             if(elements[i].id!="glasses"){
-                elements[i].style.filter = "";
                 elements[i].style.filter = "grayscale(80%)";
             }
         }
